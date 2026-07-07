@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" font-family="Montserrat, Inter, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="400" height="100" fill="white" rx="8"/>
+
+  <!-- Icon: Stylized upward flow chart with rupee accent -->
+  <g transform="translate(12, 10)">
+    <!-- Bar 1 (short) -->
+    <rect x="0"  y="55" width="14" height="25" rx="3" fill="#0F2044" opacity="0.5"/>
+    <!-- Bar 2 (medium) -->
+    <rect x="18" y="38" width="14" height="42" rx="3" fill="#0F2044" opacity="0.75"/>
+    <!-- Bar 3 (tall - teal accent) -->
+    <rect x="36" y="18" width="14" height="62" rx="3" fill="#00BFA5"/>
+    <!-- Upward arrow on top of bar 3 -->
+    <polygon points="43,8 36,22 50,22" fill="#00BFA5"/>
+    <!-- ₹ symbol inside accent bar -->
+    <text x="43" y="52" text-anchor="middle" font-size="10" font-weight="bold" fill="white">₹</text>
+  </g>
+
+  <!-- Brand name: Vyapar (navy) + Flow (teal) -->
+  <text x="82" y="46" font-size="30" font-weight="800" fill="#0F2044" letter-spacing="-0.5">Vyapar</text>
+  <text x="246" y="46" font-size="30" font-weight="800" fill="#00BFA5" letter-spacing="-0.5">Flow</text>
+
+  <!-- Tagline -->
+  <text x="82" y="68" font-size="11" fill="#546478" font-weight="500" letter-spacing="1.5">SMART BUSINESS MANAGEMENT</text>
+
+  <!-- Teal underline accent -->
+  <rect x="82" y="74" width="280" height="2.5" rx="1.25" fill="#00BFA5" opacity="0.5"/>
+
+  <!-- Version badge -->
+  <rect x="338" y="76" width="48" height="16" rx="8" fill="#0F2044"/>
+  <text x="362" y="88" text-anchor="middle" font-size="9" fill="#00BFA5" font-weight="700">v 1.0</text>
+</svg>
