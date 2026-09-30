@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adityaingale505050-sketch.github.io/vyapar-flow-website/sitemap.xml
